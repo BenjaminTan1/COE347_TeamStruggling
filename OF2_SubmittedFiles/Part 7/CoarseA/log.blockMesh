@@ -1,0 +1,156 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  7
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 7-49b2b3b8b082
+Exec   : blockMesh
+Date   : Mar 28 2022
+Time   : 14:21:04
+Host   : "c469-041.stampede2.tacc.utexas.edu"
+PID    : 255361
+I/O    : uncollated
+Case   : /work2/07642/savsmith/stampede2/OF2/cc20-coarse
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Creating block mesh from
+    "/work2/07642/savsmith/stampede2/OF2/cc20-coarse/system/blockMeshDict"
+Creating block edges
+No non-planar block faces defined
+Creating topology blocks
+Creating topology patches
+
+Creating block mesh topology
+--> FOAM Warning : 
+    From function Foam::polyMesh::polyMesh(const Foam::IOobject &, Foam::Field<Foam::Vector<double>> &&, const Foam::List<Foam::cellShape> &, const Foam::List<Foam::List<Foam::face>> &, const Foam::List<Foam::word> &, const Foam::PtrList<Foam::dictionary> &, const Foam::word &, const Foam::word &, bool)
+    in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 873
+    Found 40 undefined faces in mesh; adding to default patch.
+
+Check topology
+
+	Basic statistics
+		Number of internal faces : 28
+		Number of boundary faces : 64
+		Number of defined boundary faces : 64
+		Number of undefined boundary faces : 0
+	Checking patch -> block consistency
+
+Creating block offsets
+Creating merge list .
+
+Creating polyMesh from blockMesh
+Creating points with scale 1
+    Block 0 cell size :
+        i : 0.01384 .. 0.0276801
+        j : 0.0157073 .. 0.0157073 0.0161421 .. 0.0161421 0.0157073 .. 0.0157073 0.0161421 .. 0.0161421 
+        k : 0.1
+    Block 1 cell size :
+        i : 0.01384 .. 0.0276801
+        j : 0.0157073 .. 0.0157073 0.0161421 .. 0.0161421 0.0157073 .. 0.0157073 0.0161421 .. 0.0161421 
+        k : 0.1
+    Block 2 cell size :
+        i : 0.01384 .. 0.0276801
+        j : 0.0157073 .. 0.0157073 0.0161421 .. 0.0161421 0.0157073 .. 0.0157073 0.0161421 .. 0.0161421 
+        k : 0.1
+    Block 3 cell size :
+        i : 0.01384 .. 0.0276801
+        j : 0.0157073 .. 0.0157073 0.0161421 .. 0.0161421 0.0157073 .. 0.0157073 0.0161421 .. 0.0161421 
+        k : 0.1
+    Block 4 cell size :
+        i : 0.01384 .. 0.0276801
+        j : 0.0157073 .. 0.0157073 0.0161421 .. 0.0161421 0.0157073 .. 0.0157073 0.0161421 .. 0.0161421 
+        k : 0.1
+    Block 5 cell size :
+        i : 0.01384 .. 0.0276801
+        j : 0.0157073 .. 0.0157073 0.0161421 .. 0.0161421 0.0157073 .. 0.0157073 0.0161421 .. 0.0161421 
+        k : 0.1
+    Block 6 cell size :
+        i : 0.01384 .. 0.0276801
+        j : 0.0157073 .. 0.0157073 0.0161421 .. 0.0161421 0.0157073 .. 0.0157073 0.0161421 .. 0.0161421 
+        k : 0.1
+    Block 7 cell size :
+        i : 0.01384 .. 0.0276801
+        j : 0.0157073 .. 0.0157073 0.0161421 .. 0.0161421 0.0157073 .. 0.0157073 0.0161421 .. 0.0161421 
+        k : 0.1
+    Block 8 cell size :
+        i : 0.12 .. 0.12 0.12002 .. 0.12002 0.12 .. 0.12 0.12002 
+        j : 0.0314146 0.0312893 .. 0.0309805 0.0314146 0.0312893 .. 0.0309805 
+        k : 0.1
+    Block 9 cell size :
+        i : 0.131716
+        j : 0.131716
+        k : 0.1
+    Block 10 cell size :
+        i : 0.0314146 .. 0.0314146 0.0312893 .. 0.0309805 0.0314146 .. 0.0314146 0.0312893 .. 0.0309805 
+        j : 0.12 .. 0.12 0.12002 .. 0.12002 0.12 .. 0.12 0.12002 
+        k : 0.1
+    Block 11 cell size :
+        i : 0.0314146 .. 0.0314146 0.0309805 .. 0.0312893 0.0314146 .. 0.0314146 0.0309805 .. 0.0312893 
+        j : 0.131716 0.130841 .. 0.130841 0.131716 0.130841 .. 0.130841 
+        k : 0.1
+    Block 12 cell size :
+        i : 0.131716 .. 0.131716
+        j : 0.131716
+        k : 0.1
+    Block 13 cell size :
+        i : 0.12 .. 0.12 0.12002 .. 0.12002 0.12 .. 0.12 0.12002 .. 0.12002 
+        j : 0.0282843 .. 0.0282843 0.0284093 .. 0.0280689 0.0282843 .. 0.0282843 0.0284093 .. 0.0280689 
+        k : 0.1
+    Block 14 cell size :
+        i : 0.131716 .. 0.131716 0.130841 .. 0.130841 0.131716 .. 0.131716 0.130841 .. 0.130841 
+        j : 0.0282843 .. 0.0282843 0.0280689 .. 0.0284093 0.0282843 .. 0.0282843 0.0280689 .. 0.0284093 
+        k : 0.1
+    Block 15 cell size :
+        i : 0.131716 .. 0.131716
+        j : 0.131716 .. 0.131716
+        k : 0.1
+    Block 16 cell size :
+        i : 0.0282843 .. 0.0282843 0.0280689 .. 0.0284093 0.0282843 .. 0.0282843 0.0280689 .. 0.0284093 
+        j : 0.131716 .. 0.131716 0.130841 .. 0.130841 0.131716 .. 0.131716 0.130841 .. 0.130841 
+        k : 0.1
+    Block 17 cell size :
+        i : 0.0282843 .. 0.0282843 0.0284093 .. 0.0280689 0.0282843 .. 0.0282843 0.0284093 .. 0.0280689 
+        j : 0.12 .. 0.12 0.12002 .. 0.12002 0.12 .. 0.12 0.12002 .. 0.12002 
+        k : 0.1
+    Block 18 cell size :
+        i : 0.131716
+        j : 0.131716 .. 0.131716
+        k : 0.1
+    Block 19 cell size :
+        i : 0.131716 0.130841 .. 0.130841 0.131716 0.130841 .. 0.130841 
+        j : 0.0314146 .. 0.0314146 0.0309805 .. 0.0312893 0.0314146 .. 0.0314146 0.0309805 .. 0.0312893 
+        k : 0.1
+Creating cells
+Creating patches
+
+There are no merge patch pairs edges
+
+Writing polyMesh
+----------------
+Mesh Information
+----------------
+  boundingBox: (-4 -4 0) (4 4 0.1)
+  nPoints: 25600
+  nCells: 12500
+  nFaces: 50300
+  nInternalFaces: 24700
+----------------
+Patches
+----------------
+  patch 0 (start: 24700 size: 100) name: inlet
+  patch 1 (start: 24800 size: 100) name: outlet
+  patch 2 (start: 24900 size: 200) name: cylinder
+  patch 3 (start: 25100 size: 100) name: top
+  patch 4 (start: 25200 size: 100) name: bottom
+  patch 5 (start: 25300 size: 25000) name: defaultFaces
+
+End
+
